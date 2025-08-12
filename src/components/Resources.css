@@ -1,0 +1,157 @@
+.resources {
+  background: #f8f9fa;
+}
+
+.resources-categories {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.category-btn {
+  background: white;
+  border: 2px solid #e9ecef;
+  color: #7f8c8d;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.category-btn:hover,
+.category-btn.active {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.resource-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.resource-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.resource-content {
+  flex: 1;
+}
+
+.resource-category {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.resource-title {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.resource-description {
+  color: #7f8c8d;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.resource-link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.resource-link:hover {
+  color: #764ba2;
+}
+
+.resources-cta {
+  text-align: center;
+  background: white;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.resources-cta h3 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.resources-cta p {
+  color: #7f8c8d;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .resources-categories {
+    gap: 10px;
+  }
+
+  .category-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .resources-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .resource-card {
+    padding: 25px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .resource-icon {
+    font-size: 3rem;
+  }
+
+  .resources-cta {
+    padding: 30px 20px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
