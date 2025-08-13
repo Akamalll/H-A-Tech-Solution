@@ -62,13 +62,8 @@ const Header: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#solutions" onClick={() => setIsMenuOpen(false)}>
-                  Solutions
-                </a>
-              </li>
-              <li>
-                <a href="#services" onClick={() => setIsMenuOpen(false)}>
-                  Services
+                <a href="#solutions-and-services" onClick={() => setIsMenuOpen(false)}>
+                  Solusi & Layanan
                 </a>
               </li>
               <li>
@@ -85,7 +80,7 @@ const Header: React.FC = () => {
           </nav>
 
           <div className="header-actions">
-            <button className="btn btn-login">Login</button>
+            <button className="btn btn-contact">Contact Us</button>
             <div className="mobile-menu-btn" onClick={toggleMenu}>
               <span></span>
               <span></span>
