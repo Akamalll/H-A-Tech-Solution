@@ -49,43 +49,31 @@ const Contact: React.FC = () => {
 
             <div className="contact-details">
               <div className="contact-item">
-                <div className="contact-icon">📍</div>
-                <div>
-                  <h4>Alamat Kantor</h4>
-                  <p>
-                    Jl. Sudirman No. 123, Jakarta Pusat
-                    <br />
-                    DKI Jakarta, Indonesia 12190
-                  </p>
-                </div>
+                <h4>Alamat Kantor</h4>
+                <p>
+                  Jl. Sudirman No. 123, Jakarta Pusat
+                  <br />
+                  DKI Jakarta, Indonesia 12190
+                </p>
               </div>
 
               <div className="contact-item">
-                <div className="contact-icon">📧</div>
-                <div>
-                  <h4>Email</h4>
-                  <p>hello@hatechsolution.com</p>
-                </div>
+                <h4>Email</h4>
+                <p>hello@hatechsolution.com</p>
               </div>
 
               <div className="contact-item">
-                <div className="contact-icon">📞</div>
-                <div>
-                  <h4>Telepon</h4>
-                  <p>+62 21 1234 5678</p>
-                </div>
+                <h4>Telepon</h4>
+                <p>+62 21 1234 5678</p>
               </div>
 
               <div className="contact-item">
-                <div className="contact-icon">⏰</div>
-                <div>
-                  <h4>Jam Kerja</h4>
-                  <p>
-                    Senin - Jumat: 09:00 - 18:00 WIB
-                    <br />
-                    Sabtu: 09:00 - 15:00 WIB
-                  </p>
-                </div>
+                <h4>Jam Kerja</h4>
+                <p>
+                  Senin - Jumat: 09:00 - 18:00 WIB
+                  <br />
+                  Sabtu: 09:00 - 15:00 WIB
+                </p>
               </div>
             </div>
           </div>
